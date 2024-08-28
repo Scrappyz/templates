@@ -1,0 +1,21 @@
+{
+    "searchPaths": {
+        "filenames": {
+            "exclude": [],
+            "include": [
+                "**/*!*!*"
+            ]
+        },
+        "files": {
+            "exclude": [],
+            "include": [
+                "README.md"
+            ]
+        }
+    },
+    "variablePrefix": "!",
+    "variableSuffix": "!",
+    "variables": {
+        "project": "Name of project"
+    }
+}

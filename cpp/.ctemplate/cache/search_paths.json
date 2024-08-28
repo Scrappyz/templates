@@ -1,0 +1,15 @@
+{
+    "filenames": {
+        "exclude": [],
+        "include": [
+            "**/*!*!*"
+        ]
+    },
+    "files": {
+        "exclude": [],
+        "include": [
+            "**/CMakeLists.txt",
+            "README.md"
+        ]
+    }
+}

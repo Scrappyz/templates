@@ -1,0 +1,11 @@
+{
+    "filenames": [
+        "test\\src\\!project!_test.cpp"
+    ],
+    "files": [
+        "CMakeLists.txt",
+        "README.md",
+        "test\\CMakeLists.txt",
+        "test\\src\\!project!_test.cpp"
+    ]
+}

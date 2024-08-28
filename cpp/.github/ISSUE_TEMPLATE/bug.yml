@@ -1,0 +1,70 @@
+name: Bug
+description: File a bug report.
+title: "[Bug]: "
+labels: ["Bug"]
+body:
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severely does this affect the usability of the software?
+      multiple: false
+      options:
+        - MINOR
+        - MAJOR
+      default: 0
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: What was the problem and what were you doing when it occured?
+      placeholder: Tell us what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+      description: What was the behaviour you were expecting?
+      placeholder: Tell us what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce the problem?
+      description: Give us a step-by-step instruction how to reproduce the problem.
+      placeholder: Telling us how to reproduce the problem will help us alot.
+    validations:
+      required: true
+  - type: textarea
+    id: insights
+    attributes:
+      label: Any insights?
+      description: Do you have an idea why this problem is happening?
+      placeholder: Tell us your thoughts.
+    validations:
+      required: false
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the software were you using?
+      options:
+        - 1.0.0-beta.1
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      description: What operating system were you using when this problem occured?
+      multiple: false
+      options:
+        - Windows
+        - Linux
+        - MacOS
+      default: 0
+    validations:
+      required: true

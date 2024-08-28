@@ -1,0 +1,10 @@
+{
+    "filenames": [
+        "!project!",
+        "!project!\\!project!.py",
+        "test\\test_!project!.py"
+    ],
+    "files": [
+        "README.md"
+    ]
+}
