@@ -1,0 +1,20 @@
+{
+    "searchPaths": {
+        "filenames": {
+            "exclude": [],
+            "include": []
+        },
+        "files": {
+            "exclude": [],
+            "include": [
+                "README.md",
+                "**/CMakeLists.txt"
+            ]
+        }
+    },
+    "variablePrefix": "!",
+    "variableSuffix": "!",
+    "variables": {
+        "project": "Name of project"
+    }
+}
