@@ -2,7 +2,9 @@
     "searchPaths": {
         "filenames": {
             "exclude": [],
-            "include": []
+            "include": [
+                "**/*!*!*"
+            ]
         },
         "files": {
             "exclude": [],
