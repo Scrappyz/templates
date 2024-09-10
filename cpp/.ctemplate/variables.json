@@ -10,7 +10,8 @@
             "exclude": [],
             "include": [
                 "README.md",
-                "**/CMakeLists.txt"
+                "**/CMakeLists.txt",
+                "test/src/!project!_test.cpp"
             ]
         }
     },
