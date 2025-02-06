@@ -1,0 +1,23 @@
+{
+    "searchPaths": {
+        "filenames": {
+            "exclude": [],
+            "include": [
+                "src/**/*!*!*"
+            ]
+        },
+        "files": {
+            "exclude": [],
+            "include": [
+                "src/main/java/com/example/!artifact!/!main!Application.java",
+                "pom.xml"
+            ]
+        }
+    },
+    "variablePrefix": "!",
+    "variableSuffix": "!",
+    "variables": {
+        "artifact": "Artifact ID",
+        "main": "Main application name"
+    }
+}
