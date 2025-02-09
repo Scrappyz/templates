@@ -1,0 +1,19 @@
+{
+    "searchPaths": {
+        "filenames": {
+            "exclude": [],
+            "include": [
+                "src/**/*!*!*"
+            ]
+        },
+        "files": {
+            "exclude": [],
+            "include": []
+        }
+    },
+    "variablePrefix": "!",
+    "variableSuffix": "!",
+    "variables": {
+
+    }
+}
